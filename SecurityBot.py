@@ -19,7 +19,6 @@ load_dotenv(find_dotenv())
 
 
 def mailCredentials():
-
     mail = os.getenv('MAIL')
     password = os.getenv('PASSWORD')
     return mail, password
